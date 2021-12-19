@@ -1,0 +1,30 @@
+{
+  "name": "rest_api",
+  "version": "1.0.0",
+  "description": "structuration",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "REST_API"
+  ],
+  "author": "Ombres",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "consolidate": "^0.16.0",
+    "cookie-parser": "^1.4.5",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "firebase-admin": "^10.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.1",
+    "mongoose": "^6.0.12",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
