@@ -20,7 +20,7 @@ router.put('/user', checkTokenMiddleware.checkTokenMiddleware, auth.updateUser);
 router.put('/user/modifPassword', checkTokenMiddleware.checkTokenMiddleware, auth.updatePassword);
 
 //route de recuperation des utilisateurs
-router.get('/user', checkTokenMiddleware.checkTokenMiddleware, auth.getAllUsers);
+router.get('/users', checkTokenMiddleware.checkTokenMiddleware, auth.getAllUsers);
 
 //route de deconnexion de l'utilisateur
 router.delete('/user/off', checkTokenMiddleware.checkTokenMiddleware, auth.deleteToken);
